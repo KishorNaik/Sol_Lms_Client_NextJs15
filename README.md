@@ -44,3 +44,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - image-kit - [image-kit](https://imagekit.io/)
 - NextAuth - [NextAuth](https://next-auth.js.org/)
 - upstash - [upstash](https://upstash.com/)
+- React Hook Form - [React Hook Form](https://react-hook-form.com/)
+- Zod - [Zod](https://zod.dev/)
