@@ -70,7 +70,9 @@ const AuthForm = <T extends FieldValues>(props: IProps<T>) => {
                   </FormLabel>
                   <FormControl>
                     {field.name === "universityCard" ? (
-                      <ImageUpload />
+                      <div className="flex flex-col gap-2">
+                        <ImageUpload onFileChanged={field.onChange} />
+                      </div>
                     ) : (
                       <Input
                         required
