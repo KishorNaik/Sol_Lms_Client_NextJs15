@@ -6,6 +6,7 @@ interface IConfig {
       privateKey: string;
       urlEndpoint: string;
     };
+    databaseUrl: string;
   };
 }
 
@@ -17,6 +18,7 @@ const config: IConfig = {
       privateKey: process.env.IMAGEKIT_PRIVATE_KEY || "",
       urlEndpoint: process.env.NEXT_PUBLIC_IMAGEKIT_URL_ENDPOINT || "",
     },
+    databaseUrl: process.env.DATABASE_URL || "",
   },
 };
 
